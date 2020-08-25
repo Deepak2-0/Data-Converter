@@ -9,7 +9,7 @@ const getConverter = () => {
     return;
   }
 
-  let result = +(value / 10 ** 9).toFixed(2);
+  let result = value / 10 ** 9;
   console.log(result);
   let resultText = `In GB, ${value} bytes is ${result} GB`;
 
